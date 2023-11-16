@@ -8,3 +8,29 @@ p{
     text-align: justify;
     font-size: larger;
 }
+
+table{
+    border: solid 2px;
+
+}
+
+td{
+    border: solid 1px;
+    border-radius: 5px;
+    font-size: 50px;
+    transition: all 1s;
+    animation: lelegzes 3s;
+    animation-iteration-count: infinite;
+}
+
+td:hover{
+    border-color: aqua;
+    border-radius: 0px;
+}
+
+@keyframes lelegzes {
+    0% {font-size: 50px}
+    50% {font-size: 90px}
+    69% {font-size: 90px}
+    100% {font-size: 50px}
+}
